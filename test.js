@@ -1,4 +1,4 @@
-var f = 'test1.html';
+var f = document.title;
 var u = window.location.pathname.replace(/.*gh-pages-no-extension\//,'');
 var au = document.querySelector("a[href='"+u+"']");
 var af = document.querySelector("a[href='"+f+"']");
