@@ -94,3 +94,9 @@ h1, h2 {
 #nav a.tf {
   border-bottom: 4px solid #8e44ad;
 }
+.warn {
+  background: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
