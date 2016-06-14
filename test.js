@@ -7,11 +7,12 @@ af.className += ' tf';
 au.parentNode.previousElementSibling.className += ' a';
 af.parentNode.nextElementSibling.className += ' a';
 var p = window.location.protocol;
+var m = document.getElementById('message');
 if (p == 'http:') {
-    document.getElementsByTagName('h1')[0].innerHTML
-    += ' <span class=warn><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> INSECURE CONNECTION</span>';
+    m.class += ' warn';
+    m.innerHTML = '<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> INSECURE CONNECTION';
 }
 if (p == 'https:') {
-    document.getElementsByTagName('h1')[0].innerHTML
-    += ' <span class=ok><i class="fa fa-lock" aria-hidden="true"></i> HTTPS</span>';
+    m.class += ' ok';
+    m.innerHTML = '<i class="fa fa-lock" aria-hidden="true"></i> HTTPS';
 }
