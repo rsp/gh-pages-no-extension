@@ -1,5 +1,7 @@
-gh-pages-noext
+gh-pages-no-extension
 =
+See: [How to remove HTML extension from GitHub Pages in 0 easy steps](https://rsp.github.io/gh-pages-no-extension/)
+-
 
 Issues
 ------
