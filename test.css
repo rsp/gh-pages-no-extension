@@ -94,12 +94,11 @@ h1, h2 {
 #nav a.tf {
   border-bottom: 4px solid #8e44ad;
 }
-.warn,.ok {
+#message {
   color: #fff;
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 1.5em;
-  top: -10px;
 }
 .warn {
   background: #e74c3c;
