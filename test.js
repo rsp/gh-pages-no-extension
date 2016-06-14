@@ -9,5 +9,9 @@ af.parentNode.nextElementSibling.className += ' a';
 var p = window.location.protocol;
 if (p == 'http:') {
     document.getElementsByTagName('h1')[0].innerHTML
-    += ' <span class=warn>INSECURE CONNECTION</span>';
+    += ' <span class=warn><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> INSECURE CONNECTION</span>';
+}
+if (p == 'https:') {
+    document.getElementsByTagName('h1')[0].innerHTML
+    += ' <span class=ok><i class="fa fa-lock" aria-hidden="true"></i> HTTPS</span>';
 }
