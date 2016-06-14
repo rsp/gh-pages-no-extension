@@ -1,0 +1,96 @@
+body {
+font-size: 18px;
+font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+a,img {
+-webkit-transition: all ease-in-out 0.5s;
+-moz-transition: all ease-in-out 0.5s;
+-ms-transition: all ease-in-out 0.5s;
+-o-transition: all ease-in-out 0.5s;
+transition: all ease-in-out 0.5s;
+}
+#nav~div a {
+  /*color: #5577c0;*/
+  color: #337ab7;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+#nav~div a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+#favatar {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 3px;
+}
+h1, h2 {
+  text-align: center;
+}
+#avatar {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+#avatar:hover {
+  border: 2px solid #000;
+}
+.foot {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.jumbotron {
+  text-align: center;
+}
+#nav {
+  margin-top: 20px;
+}
+#nav > div {
+  display: inline-block;
+}
+#nav a {
+  display: inline-block;
+  /*background: #000;*/
+  /*border-radius: 25px;*/
+  height: 25px;
+}
+#nav a {
+  margin: 0px 4px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  /*border-radius:10px;*/
+  padding: 4px 10px;
+}
+#nav a:hover {
+  color: #f1c40f;
+}
+#nav {
+  text-align: center;
+}
+#nav a {
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+}
+#nav .u, #nav .f {
+  color: #fff;
+}
+#nav .u.a {
+  color: #d35400;
+}
+#nav .f.a {
+  color: #8e44ad;
+}
+
+#nav a.tu {
+  border-top: 4px solid #d35400;
+}
+#nav a.tf {
+  border-bottom: 4px solid #8e44ad;
+}
