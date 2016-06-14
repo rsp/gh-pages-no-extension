@@ -42,6 +42,38 @@ h1, h2 {
   font-weight: bold;
   background: #eee;
 }
+.share {
+  font-style: italic;
+  color: #e74c3c;
+  font-size: 1.6em;
+  text-align: center;
+}
+.share .fa {
+  /*padding: 0.25em;*/
+  /*border-radius: 100%;*/
+  color: #fff;
+  width: 1.6em;
+  text-align: center;
+  line-height: 1.6em;
+  border-radius: 0.8em;
+}
+.share .fa-twitter {
+  background: #55acee;
+}
+.share .fa-facebook {
+  background: #3b5999;
+}
+.share .fa-google-plus {
+  background: #dd4b39;
+}
+.share .fa-github {
+  background: transparent;
+  color: #000;
+  font-size: 1.7em;
+  position: relative;
+  top: 0.15em;
+  width: 0;
+}
 </style>
 </head>
 <body>
@@ -53,11 +85,20 @@ h1, h2 {
   <a href="https://pocztarski.com/"><img id=avatar src="https://s.gravatar.com/avatar/c0a8a4fb43f9c19b3391a7b1066d491f?s=80"></a>
   </div>
 </div>
+<div class="share">
+  Share it on
+  <a href="http://twitter.com/share?url=https://rsp.github.io/gh-pages-no-extension/&amp;text=How to remove %23HTML extension from %23GitHubPages in 0 easy steps%0D%0A%23github %23staticsites %23ghpages&amp;via=pocztarski" target="_blank"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://rsp.github.io/gh-pages-no-extension/" target="_blank"><i class="fa fa-facebook"></i></a>
+  <a href="https://plus.google.com/share?url=https%3A%2F%2Frsp.github.io%2Fgh-pages-no-extension%2F" target="_blank"><i class="fa fa-google-plus"></i></a>
+  and star it on
+  <a href="https://github.com/rsp/gh-pages-no-extension" target="_blank"><i class="fa fa-github"></i></a>
+</div>
 <h2>Step 0: It already works and you don't have to do anything</h2>
 <div class="container">
 <div class="row">
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 <p>I'm not sure if you are already aware of that or not but to remove .html extension from GitHub Pages all you have to do is remove .html extension from your links.</p>
+<h2>See <a href="test1.html">the tests</a></h2>
 <p>In other words it already works and you don't have to do anything. You don't have to use subdirectories, CNAME, redirects, Jekyll _config.yml, YAML front-matter or any other hack suggested all over the web.</p>
 <p>For example this file is named <a href="index.html">index.html</a>
 but you can access is as those URLs:</p>
@@ -70,7 +111,7 @@ but you can access is as those URLs:</p>
 <p>
 some of which may be insecure in some cases (see <a href="https://stackoverflow.com/questions/21244910/remove-html-extension-from-github-pages/29200325#29200325" target="_blank">details</a>).
 </p>
-<p>See <a href="test1">the tests</a> to experiment yourself how it works
+<p>See <a href="test1.html">the tests</a> to experiment yourself how it works
 and see how those files are named in <a href="https://github.com/rsp/gh-pages-no-extension">the GitHub repository</a>.</p>
 <p>
   This is based on the information originally posted as an answer to:
