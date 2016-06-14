@@ -7,60 +7,20 @@
   <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto:400,100,300&subset=latin,latin-ext">
-<style>
-body {
-font-size: 18px;
-font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
-}
-a,img {
--webkit-transition: all ease-in-out 0.5s;
--moz-transition: all ease-in-out 0.5s;
--ms-transition: all ease-in-out 0.5s;
--o-transition: all ease-in-out 0.5s;
-transition: all ease-in-out 0.5s;
-}
-a {
-  /*color: #5577c0;*/
-  color: #337ab7;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-}
-a:hover {
-  color: #000;
-  border-bottom: 1px solid #000;
-}
-#favatar {
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  top: 3px;
-}
-h1, h2 {
-  text-align: center;
-}
-#avatar {
-  border-radius: 50%;
-  border: 2px solid #fff;
-  display: block;
-  margin: 0 auto;
-  width: 40px;
-  height: 40px;
-}
-#avatar:hover {
-  border: 2px solid #000;
-}
-.foot {
-  margin-top: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-.jumbotron {
-  text-align: center;
-}
-</style>
+  <link rel=stylesheet href="test.css">
 </head>
 <body>
+
+ <div id=nav>
+  <div><div class=u>URL</div><div><a href="test1">test1</a></div><div class=f>FILE</div></div>
+  <div><div class=u>URL</div><div><a href="test1.html">test1.html</a></div><div class=f>FILE</div></div>
+  <div><div class=u>URL</div><div><a href="dir/test2">dir/test2</a></div><div class=f>FILE</div></div>
+  <div><div class=u>URL</div><div><a href="dir/test2.html">dir/test2.html</a></div><div class=f>FILE</div></div>
+  <div><div class=u>URL</div><div><a href="dir">dir</a></div><div class=f>FILE</div></div>
+  <div><div class=u>URL</div><div><a href="dir/">dir/</a></div><div class=f>FILE</div></div>
+  <div><div class=u>URL</div><div><a href="dir/index">dir/index</a></div><div class=f>FILE</div></div>
+  <div><div class=u>URL</div><div><a href="dir/index.html">dir/index.html</a></div><div class=f>FILE</div></div>
+ </div>
 
  <div class="jumbotron">
   <h1>test1.html</h1>
@@ -85,6 +45,8 @@ h1, h2 {
   <a href="https://stackexchange.com/users/303952/rsp" target="_blank"><i class="fa fa-stack-exchange"></i></a>
   <a href="https://stackoverflow.com/users/613198/rsp" target="_blank"><i class="fa fa-stack-overflow"></i></a>
 </div>
+
+<script src="test.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
