@@ -107,3 +107,35 @@ h1, h2 {
 #message.ok {
   background: #2ecc71;
 }
+.share {
+  font-style: italic;
+  color: #e74c3c;
+  font-size: 1.6em;
+  text-align: center;
+}
+.share .fa {
+  /*padding: 0.25em;*/
+  /*border-radius: 100%;*/
+  color: #fff;
+  width: 1.6em;
+  text-align: center;
+  line-height: 1.6em;
+  border-radius: 0.8em;
+}
+.share .fa-twitter {
+  background: #55acee;
+}
+.share .fa-facebook {
+  background: #3b5999;
+}
+.share .fa-google-plus {
+  background: #dd4b39;
+}
+.share .fa-github {
+  background: transparent;
+  color: #000;
+  font-size: 1.7em;
+  position: relative;
+  top: 0.15em;
+  width: 0;
+}
